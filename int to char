@@ -1,0 +1,92 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+char toChar(int x){
+	char res;
+	if (x >= 0 && x <= 9){
+		return x + '0';
+	}
+	else if (x == 10){
+		res = 'A';
+	}
+	else if (x == 11){
+		res = 'B';
+	}
+	else if (x == 12){
+		res = 'C';
+	}
+	else if (x == 13){
+		res = 'D';
+	}
+	else if (x == 14){
+		res = 'E';
+	}
+	else if (x == 15){
+		res = 'F';
+	}
+	else if (x == 16){
+		res = 'G';
+	}
+	else if (x == 17){
+		res = 'H';
+	}
+	else if (x == 18){
+		res = 'I';
+	}
+	else if (x == 19){
+		res = 'J';
+	}
+	else if (x == 20){
+		res = 'K';
+	}
+	else if (x == 21){
+		res = 'L';
+	}
+	else if (x == 22){
+		res = 'M';
+	}
+	else if (x == 23){
+		res = 'N';
+	}
+	else if (x == 24){
+		res = 'O';
+	}
+	else if (x == 25){
+		res = 'P';
+	}
+	else if (x == 26){
+		res = 'Q';
+	}
+	else if (x == 27){
+		res = 'R';
+	}
+	else if (x == 28){
+		res = 'S';
+	}
+	else if (x == 29){
+		res = 'T';
+	}
+	else if (x == 30){
+		res = 'U';
+	}
+	else if (x == 31){
+		res = 'V';
+	}
+	else if (x == 32){
+		res = 'W';
+	}
+	else if (x == 33){
+		res = 'X';
+	}
+	else if (x == 34){
+		res = 'Y';
+	}
+	else if (x == 35){
+		res = 'Z';
+	}
+	else{
+		printf("Invalid input!");
+		res = '.';
+	}
+return res;	
+}
